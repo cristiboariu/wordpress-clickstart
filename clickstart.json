@@ -1,0 +1,38 @@
+{
+    "id": "wordpress",
+    "name": "Wordpress",
+    "source": "github",
+    "description": "A simple WordPress site",
+    "doc-url": "https://github.com/benjaminsavoy/wordpress-clickstart/blob/master/README.md",
+    "supported-by" : "community", 
+    "order" : 5,
+
+    "disabled" : true,
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "wordpress"
+        }
+    ],
+    "runtime": {
+        "type": "drupal",
+        "app-variables:": {
+            "key_auth": "$RANDOM_VALUE",
+            "key_auth_sec": "$RANDOM_VALUE",
+            "key_login": "$RANDOM_VALUE",
+            "key_nonce": "$RANDOM_VALUE",
+            "salt_auth": "$RANDOM_VALUE",
+            "salt_auth_sec": "$RANDOM_VALUE",
+            "salt_login": "$RANDOM_VALUE",
+            "salt_nonce": "$RANDOM_VALUE"
+        },
+        "app-parameters" : { 
+            "runtime.PLUGIN.SRC.drupal": "http://cloudbees-clickstack.s3.amazonaws.com/testing/php-plugin.zip"
+        }
+    },
+    "build-with-jenkins": {
+        "template": {
+            "type": "https://raw.github.com/benjaminsavoy/wordpress-clickstart/master/config.xml"
+        }
+    }
+}
