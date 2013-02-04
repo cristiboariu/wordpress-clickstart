@@ -15,7 +15,7 @@
         }
     ],
     "runtime": {
-        "type": "drupal",
+        "type": "php",
         "app-variables:": {
             "key_auth": "$RANDOM_VALUE",
             "key_auth_sec": "$RANDOM_VALUE",
@@ -27,7 +27,7 @@
             "salt_nonce": "$RANDOM_VALUE"
         },
         "app-parameters" : { 
-            "runtime.PLUGIN.SRC.drupal": "http://cloudbees-clickstack.s3.amazonaws.com/testing/php-plugin.zip"
+            "runtime.PLUGIN.SRC.php": "http://cloudbees-clickstack.s3.amazonaws.com/testing/php-plugin.zip"
         }
     },
     "build-with-jenkins": {

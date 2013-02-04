@@ -90,7 +90,7 @@ zip -r target/wordpress.zip .
             <applicationEnvironment></applicationEnvironment>
             <applicationConfig/>
             <apiEndPoint>https://api.cloudbees.com/api</apiEndPoint>
-            <filePattern>target/openfolio.zip</filePattern>
+            <filePattern>target/wordpress.zip</filePattern>
           </com.cloudbees.plugins.deployer.deployables.WildcardMatchingDeployable>
         </deployables>
       </configuration>
