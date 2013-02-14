@@ -16,4 +16,3 @@ Then, you can commit changes to git, and they will be published automatically. E
 ## More documentation:
 
 ###[PHP ClickStack](https://github.com/benjaminsavoy/php-clickstack)
-###[PHP Core](https://github.com/benjaminsavoy/php-core)

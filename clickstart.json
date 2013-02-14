@@ -29,7 +29,19 @@
         "app-parameters" : { 
             "runtime.PLUGIN.SRC.php": "http://cloudbees-clickstack.s3.amazonaws.com/testing/php-plugin.zip"
         }
-    },
+    },    
+    "services" : [
+         {
+          "name" : "newrelic",
+          "plan" : "standard",
+          "settings" : {}
+         },
+         {
+          "name" : "sendgrid",
+          "plan" : "free",
+          "settings" : {}
+         }     
+    ],
     "build-with-jenkins": {
         "template": {
             "type": "https://raw.github.com/benjaminsavoy/wordpress-clickstart/master/config.xml"
