@@ -3,7 +3,7 @@
     "name": "Wordpress",
     "source": "github",
     "description": "A simple WordPress site",
-    "doc-url": "https://github.com/benjaminsavoy/wordpress-clickstart/blob/master/README.md",
+    "doc-url": "https://github.com/cloudbees-community/wordpress-clickstart/blob/master/README.md",
     "supported-by" : "community", 
     "order" : 5,
 
@@ -45,7 +45,7 @@
     ],
     "build-with-jenkins": {
         "template": {
-            "type": "https://raw.github.com/benjaminsavoy/wordpress-clickstart/master/config.xml"
+            "type": "https://raw.github.com/cloudbees-community/wordpress-clickstart/master/config.xml"
         }
     }
 }
