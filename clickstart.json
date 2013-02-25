@@ -26,10 +26,6 @@
             "salt_login": "$RANDOM_VALUE",
             "salt_nonce": "$RANDOM_VALUE",
             "maxPost": 10
-        },
-        "app-parameters" : { 
-            "runtime.PLUGIN.SRC.php": "http://cloudbees-clickstack.s3.amazonaws.com/testing/php-plugin.zip",
-            "runtime.PLUGIN.SRC.sendgrid": "http://cloudbees-clickstack.s3.amazonaws.com/testing/sendgrid-php-plugin.zip"
         }
     },    
     "services" : [

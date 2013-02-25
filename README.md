@@ -1,4 +1,4 @@
-#  OpenFolio Demo Drupal ClickStart
+#  Wordpress ClickStart
 
 Click on this to deploy this stack now:
 
