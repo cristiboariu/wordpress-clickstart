@@ -28,18 +28,6 @@
             "maxPost": 10
         }
     },    
-    "services" : [
-         {
-          "name" : "newrelic",
-          "plan" : "standard",
-          "settings" : {}
-         },
-         {
-          "name" : "sendgrid",
-          "plan" : "free",
-          "settings" : {}
-         }     
-    ],
     "build-with-jenkins": {
         "template": {
             "type": "https://raw.github.com/cloudbees-community/wordpress-clickstart/master/config.xml"
