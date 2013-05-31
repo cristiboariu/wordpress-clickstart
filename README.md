@@ -1,5 +1,7 @@
 #  Wordpress ClickStart
 
+NOTE: This is experimental and may not work in your account. This is a proof of concept at this stage to show off PHP hosting but that is all.
+
 Click on this to deploy this stack now:
 
 <a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/cloudbees-community/wordpress-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly_white.png"/></a>
