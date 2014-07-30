@@ -30,7 +30,7 @@
     },    
     "build-with-jenkins": {
         "template": {
-            "type": "https://github.com/cristiboariu/wordpress-clickstart/blob/master/config.xml"
+            "type": "https://raw.githubusercontent.com/cristiboariu/wordpress-clickstart/master/config.xml"
         }
     }
 }
